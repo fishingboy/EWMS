@@ -1,0 +1,23 @@
+body  {font-family: "Courier New"}
+input {border:1px solid #ccc;}
+input[type="text"] {border:1px solid #ccc;}
+
+#base {margin:0px auto; width:960px;}
+
+.clearfix        {zoom: 1;}
+.clearfix:before {content: ""; display: table;}
+.clearfix:after  {content: ""; display: table; clear: both;}
+
+/* 工作列表 */
+#word_list {margin-top:10px; border: 1px solid #ccc; padding: 5px; border-radius: 5px;}
+
+/* 表單 */
+.form div {min-height:25px;}
+
+/* 按鈕 */
+.button        {border:1px solid #ccc; border-radius: 5px; padding:3px 5px; background: #277C95; color:#fff;}
+.button:hover  {border:1px solid #fff; border-radius: 5px; padding:3px 5px; background: #27955B; color:#fff;}
+.button_icon   {cursor: pointer;}
+ 
+/* 錯誤訊息 */
+.error {border:1px solid #ccc; background:#eff; margin:3px 0; padding:5px 7px; border-radius: 7px; text-align: center;}

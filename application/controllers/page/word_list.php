@@ -12,7 +12,7 @@ class Word_list extends CI_Controller
 		$query = $this->db->query("SELECT * FROM word_list");
 		// echo "<pre>result = " . print_r($query->result(), TRUE). "</pre>";
 		$view_data = array('list' => $query->result());
-		$this->parser->parse("word_list_view", $view_data);
+		$this->parser->parse("page/word_list_view", $view_data);
 	}
 }
 
