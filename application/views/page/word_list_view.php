@@ -22,7 +22,7 @@ var page =
             'type'      : 'iframe',
             'href'      : 'form/word_editor/add',
             'width'     : 900,
-            'height'    : 500,
+            'height'    : 400,
             'autoSize'  : false
         });
 	}	
