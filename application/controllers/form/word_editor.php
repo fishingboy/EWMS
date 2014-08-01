@@ -2,15 +2,15 @@
 
 class Word_editor extends CI_Controller 
 {
-	public function __construct()
-	{
-		parent::__construct();
-	}
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
-	public function add()
-	{
-		$this->parser->parse("form/word_insert_view", []);
-	}
+    public function add()
+    {
+        $this->parser->parse("form/word_editor_view", []);
+    }
 }
 
 /* End of file word_list.php */
